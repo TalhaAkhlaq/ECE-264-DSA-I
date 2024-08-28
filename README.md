@@ -12,11 +12,10 @@ The course covers:
 
 ## Project Description and Overview
 
-This repository includes three C++ programs developed for the course:
+This repository includes two C++ programs developed for the course:
 
 1. **Program 1**: 
-2. **Program 2**: 
-3. **Program 3**: 
+2. **Program 2**: Manages stacks and queues of integers, doubles, and strings by processing commands from an input file and logging operations and errors to an output file.
 
 ## Copyright & Licensing
 
