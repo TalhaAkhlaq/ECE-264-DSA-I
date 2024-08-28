@@ -6,7 +6,7 @@ This C++ program processes commands from an input file to manage and log operati
 
 ## Program Details
 
-*Create*: Initializes new stacks or queues for integers, doubles, or strings.
+- **Create**: Initializes new stacks or queues for integers, doubles, or strings.
 - **Push**: Adds elements to the top of a stack or the end of a queue.
 - **Pop**: Removes and retrieves elements from the top of a stack or the front of a queue.
 - **Error Handling**: Logs errors for invalid operations and data types.
