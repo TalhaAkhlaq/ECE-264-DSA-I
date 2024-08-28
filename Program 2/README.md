@@ -2,19 +2,25 @@
 
 ## Description
 
-This C++ program implements a stack and queue manipulation system. It processes commands from an input file to create stacks and queues, push values onto them, and pop values from them. Commands and their results are logged to an output file.
+This C++ program processes commands from an input file to manage and log operations on stacks and queues of integers, doubles, and strings. It supports `create`, `push`, and `pop` commands, logging each action and any errors to a specified output file.
 
 ## Program Details
 
- **Create**: Create a stack or queue with a specific name and data type.
-- **Push**: Push a value onto a specified stack or queue.
-- **Pop**: Pop a value from a specified stack or queue.
-- **Error Handling**: Outputs appropriate error messages for invalid operations.
+*Create**: Initializes new stacks or queues for integers, doubles, or strings.
+- **Push**: Adds elements to the top of a stack or the end of a queue.
+- **Pop**: Removes and retrieves elements from the top of a stack or the front of a queue.
+- **Error Handling**: Logs errors for invalid operations and data types.
 
 ## Instructions
 
-1. **Input File**: Provide a text file containing commands. Commands must be in the format specified below.
-2. **Output File**: Provide a name for the output file where results and errors will be logged.
+1. **Input File**: Create a text file with commands in the following format:
+- `<name>`: Identifier for the stack or queue.
+- `<type>`: Either `stack` or `queue`.
+- `<value>`: Value to push (for `push` command).
+
+2. **Execution**: Run the program and provide the names of the input and output files when prompted.
+
+3. **Output File**: The program will log all actions and errors to the specified output file.
 
 ### Command Format
 
