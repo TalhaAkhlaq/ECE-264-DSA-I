@@ -10,7 +10,7 @@ The course covers:
 - **Algorithms**: Sorting algorithms, algorithm analysis with big-O notation.
 - **Programming Methodology**: Practical implementation and good programming practices.
 
-## Projects
+## Project Description and Overview
 
 This repository includes three C++ programs developed for the course:
 
