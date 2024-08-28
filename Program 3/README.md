@@ -21,7 +21,12 @@ This program sorts nodes in a linked list where each node contains a data object
 
 ## Code Structure
 
-- **Data Object**: Defines the structure of the data object containing last name, first name, and SSN.
-- **File Operations**: Handles loading data from the input file and saving sorted data to the output file.
-- **Sorting Function**: Fills in the sorting routine for the linked list.
-- **Main Function**: Manages program execution, including reading input, invoking sorting, and writing output.
+- **Data Class**: Defines the structure of the data object containing last name, first name, and SSN.
+- **File Operations**: Functions `loadDataList` and `writeDataList` handle loading data from the input file and saving sorted data to the output file.
+- **Sorting Function**: `sortDataList` determines the appropriate sorting algorithm based on data characteristics and dataset size. It uses:
+  - **Optimized Quicksort**: For large datasets (T1 and T2) leveraging indirect sorting with a global array.
+  - **Insertion Sort**: For nearly sorted data (T3).
+  - **Radix Sort**: For datasets with identical names (T4) using integer SSN keys.
+- **Main Function**: Manages program execution, including reading input, invoking sorting, and writing output. It also times the sorting process.
+
+
