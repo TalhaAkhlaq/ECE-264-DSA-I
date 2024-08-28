@@ -22,7 +22,7 @@ This C++ program processes commands from an input file to manage and log operati
 
 3. **Output File**: The program will log all actions and errors to the specified output file.
 
-### Command Format
+## Command Format
 
 - **Create**: `create <name> <type>`
   - `<name>`: A unique identifier for the stack or queue. Must start with 'i', 'd', or 's' followed by alphanumeric characters.
