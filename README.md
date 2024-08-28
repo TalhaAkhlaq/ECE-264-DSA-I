@@ -6,7 +6,7 @@ This repository contains projects and coursework related to the Data Structures 
 
 The course covers:
 
-- **Data Structures**: Lists, stacks, queues, trees, hash tables.
+- **Data Structures**: Lists, stacks, queues, trees, sorting, hash tables.
 - **Algorithms**: Sorting algorithms, algorithm analysis with big-O notation.
 - **Programming Methodology**: Practical implementation and good programming practices.
 
