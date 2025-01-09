@@ -14,9 +14,9 @@ The course covers:
 
 This repository includes three C++ programs developed for the course:
 
-1. **Program 1**: Calculates and outputs the strength of mysterious creatures called foobars based on their type and position in a line from an input file.
-2. **Program 2**: Manages stacks and queues of integers, doubles, and strings by processing commands from an input file and logging operations and errors to an output file.
-3. **Program 3**: Sorts a linked list of data objects by last name, first name, and social security number, using optimized sorting algorithms tailored for different dataset characteristics.
+1. **Program 1**([https://github.com/TalhaAkhlaq/ECE-264-DSA-I/tree/main/Program%201]): Calculates and outputs the strength of mysterious creatures called foobars based on their type and position in a line from an input file.
+3. **Program 2**([https://github.com/TalhaAkhlaq/ECE-264-DSA-I/tree/main/Program%202]): Manages stacks and queues of integers, doubles, and strings by processing commands from an input file and logging operations and errors to an output file.
+4. **Program 3**([https://github.com/TalhaAkhlaq/ECE-264-DSA-I/tree/main/Program%203]): Sorts a linked list of data objects by last name, first name, and social security number, using optimized sorting algorithms tailored for different dataset characteristics.
 
 ## Copyright & Licensing
 
